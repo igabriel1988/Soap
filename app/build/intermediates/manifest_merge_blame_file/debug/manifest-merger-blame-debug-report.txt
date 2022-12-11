@@ -1,0 +1,92 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="dgtic.unam.soap"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\CURSOS\DESARROLLO_APP_MOVILES\PRACTICAS\Soap\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\CURSOS\DESARROLLO_APP_MOVILES\PRACTICAS\Soap\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->D:\CURSOS\DESARROLLO_APP_MOVILES\PRACTICAS\Soap\app\src\main\AndroidManifest.xml:6:5-79
+11-->D:\CURSOS\DESARROLLO_APP_MOVILES\PRACTICAS\Soap\app\src\main\AndroidManifest.xml:6:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\CURSOS\DESARROLLO_APP_MOVILES\PRACTICAS\Soap\app\src\main\AndroidManifest.xml:7:5-66
+12-->D:\CURSOS\DESARROLLO_APP_MOVILES\PRACTICAS\Soap\app\src\main\AndroidManifest.xml:7:22-64
+13
+14    <application
+14-->D:\CURSOS\DESARROLLO_APP_MOVILES\PRACTICAS\Soap\app\src\main\AndroidManifest.xml:9:5-33:19
+15        android:allowBackup="true"
+15-->D:\CURSOS\DESARROLLO_APP_MOVILES\PRACTICAS\Soap\app\src\main\AndroidManifest.xml:11:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.7.0] C:\Users\igabriel\.gradle\caches\transforms-3\9df45a95e4e06a011612ef3452b5826c\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+17        android:dataExtractionRules="@xml/data_extraction_rules"
+17-->D:\CURSOS\DESARROLLO_APP_MOVILES\PRACTICAS\Soap\app\src\main\AndroidManifest.xml:12:9-65
+18        android:debuggable="true"
+19        android:fullBackupContent="@xml/backup_rules"
+19-->D:\CURSOS\DESARROLLO_APP_MOVILES\PRACTICAS\Soap\app\src\main\AndroidManifest.xml:13:9-54
+20        android:icon="@mipmap/ic_launcher"
+20-->D:\CURSOS\DESARROLLO_APP_MOVILES\PRACTICAS\Soap\app\src\main\AndroidManifest.xml:14:9-43
+21        android:label="@string/app_name"
+21-->D:\CURSOS\DESARROLLO_APP_MOVILES\PRACTICAS\Soap\app\src\main\AndroidManifest.xml:15:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->D:\CURSOS\DESARROLLO_APP_MOVILES\PRACTICAS\Soap\app\src\main\AndroidManifest.xml:16:9-54
+23        android:supportsRtl="true"
+23-->D:\CURSOS\DESARROLLO_APP_MOVILES\PRACTICAS\Soap\app\src\main\AndroidManifest.xml:17:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.Soap"
+25-->D:\CURSOS\DESARROLLO_APP_MOVILES\PRACTICAS\Soap\app\src\main\AndroidManifest.xml:18:9-42
+26        android:usesCleartextTraffic="true" >
+26-->D:\CURSOS\DESARROLLO_APP_MOVILES\PRACTICAS\Soap\app\src\main\AndroidManifest.xml:10:9-44
+27        <activity
+27-->D:\CURSOS\DESARROLLO_APP_MOVILES\PRACTICAS\Soap\app\src\main\AndroidManifest.xml:20:9-32:20
+28            android:name="dgtic.unam.soap.MainActivity"
+28-->D:\CURSOS\DESARROLLO_APP_MOVILES\PRACTICAS\Soap\app\src\main\AndroidManifest.xml:21:13-41
+29            android:exported="true" >
+29-->D:\CURSOS\DESARROLLO_APP_MOVILES\PRACTICAS\Soap\app\src\main\AndroidManifest.xml:22:13-36
+30            <intent-filter>
+30-->D:\CURSOS\DESARROLLO_APP_MOVILES\PRACTICAS\Soap\app\src\main\AndroidManifest.xml:23:13-27:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->D:\CURSOS\DESARROLLO_APP_MOVILES\PRACTICAS\Soap\app\src\main\AndroidManifest.xml:24:17-69
+31-->D:\CURSOS\DESARROLLO_APP_MOVILES\PRACTICAS\Soap\app\src\main\AndroidManifest.xml:24:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->D:\CURSOS\DESARROLLO_APP_MOVILES\PRACTICAS\Soap\app\src\main\AndroidManifest.xml:26:17-77
+33-->D:\CURSOS\DESARROLLO_APP_MOVILES\PRACTICAS\Soap\app\src\main\AndroidManifest.xml:26:27-74
+34            </intent-filter>
+35
+36            <meta-data
+36-->D:\CURSOS\DESARROLLO_APP_MOVILES\PRACTICAS\Soap\app\src\main\AndroidManifest.xml:29:13-31:36
+37                android:name="android.app.lib_name"
+37-->D:\CURSOS\DESARROLLO_APP_MOVILES\PRACTICAS\Soap\app\src\main\AndroidManifest.xml:30:17-52
+38                android:value="" />
+38-->D:\CURSOS\DESARROLLO_APP_MOVILES\PRACTICAS\Soap\app\src\main\AndroidManifest.xml:31:17-33
+39        </activity>
+40
+41        <provider
+41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\igabriel\.gradle\caches\transforms-3\890798958823e1ddb9191fb82e555b3f\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+42            android:name="androidx.startup.InitializationProvider"
+42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\igabriel\.gradle\caches\transforms-3\890798958823e1ddb9191fb82e555b3f\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+43            android:authorities="dgtic.unam.soap.androidx-startup"
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\igabriel\.gradle\caches\transforms-3\890798958823e1ddb9191fb82e555b3f\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+44            android:exported="false" >
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\igabriel\.gradle\caches\transforms-3\890798958823e1ddb9191fb82e555b3f\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+45            <meta-data
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\igabriel\.gradle\caches\transforms-3\890798958823e1ddb9191fb82e555b3f\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+46                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\igabriel\.gradle\caches\transforms-3\890798958823e1ddb9191fb82e555b3f\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+47                android:value="androidx.startup" />
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\igabriel\.gradle\caches\transforms-3\890798958823e1ddb9191fb82e555b3f\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+48            <meta-data
+48-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\igabriel\.gradle\caches\transforms-3\98559743d14cc19cc4c8b0530b0c3c74\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+49                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+49-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\igabriel\.gradle\caches\transforms-3\98559743d14cc19cc4c8b0530b0c3c74\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+50                android:value="androidx.startup" />
+50-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\igabriel\.gradle\caches\transforms-3\98559743d14cc19cc4c8b0530b0c3c74\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+51        </provider>
+52    </application>
+53
+54</manifest>
